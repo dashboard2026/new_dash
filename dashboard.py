@@ -9,7 +9,7 @@ st.title("👟⚽🎒👕 PRÉ-VENDA-SS26")
 # Caminho do arquivo Excel local
 caminho_arquivo = "CARTEIRA_DI_GASPI_24.04.xlsx"
 try:
-    df = pd.read_excel(caminho_arquivo,engine='openpyxl)
+    df = pd.read_excel(caminho_arquivo,engine='openpyxl')
 
     # Mostrar a tabela
     st.subheader("🖥️ INFORMAÇÕES")
